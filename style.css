@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+.nav_content {
+    display:flex;
+    margin: 50px 0 50px 0;
+    justify-content: center;
+
+}
+.nav_links {
+    display:flex;
+    gap: 40px;
+    margin-top: 10px;
+
+}
+.nav_link {
+    text-decoration: none;
+    color: #222222;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.nav_btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #F3FBF8;
+    border: none;
+}
+.logo {
+    margin-left: 218px;
+    margin-right: 308px;
+}
+.nav_buttons {
+    display: flex;
+    gap: 20px;
+
+}
+.nav_btn img {
+    width: 24px;
+    height: 24px;
+}
+.nav_buttons .reg {
+    width: 160px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #09A66D;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    margin-left: 12px;
+}
+.hero{
+    background-color: #F3FBF8;
+    height: 850px;
+
+
+
+}
+.hero_content{
+    display: grid;
+    justify-content: center;
+   
+}
+.hero_content_top{
+    text-align: center;
+    display: grid;
+    place-items: center;
+
+}
+
+.hero_content_top h1{
+    font-family: "Rosario", sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 90px;
+    margin-top: 93px;
+
+}
+.hero_content_top p{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    width: 637px;
+    margin-top: 20px;
+}
+.hero_content_top button{
+    margin-top: 40px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #222222;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items:center;
+    gap:18px;
+
+}
+
+.hero_content_top button img{
+    width: 64px;
+    height: 64px;
+    transform: rotateY(180deg);
+}
+
+.hero_content_bottom{
+     display: flex;
+     gap: 108px;
+     position: absolute;
+     top: 62%;
+     left: 10%;
+
+
+}
+.vegetable_img img{
+    width: 862px;
+    height: 465px;
+
+}
+
+.hero_bottom_card{
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 116px;
+    display: flex;
+     margin-bottom: 32px;
+}
+.hero_card_img{
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    background-color: #F3FBF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0 30px 33px;
+}
+.hero_card_img img{
+    width: 32px;
+    height: 32px;
+    
+    
+}
+.hero_card_text{
+    margin: 17px 0 17px 24px;
+
+}
+.hero_card_text h2 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #000000;
+}
+.hero_card_text p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #000000;
+}
+.service_text {
+    margin-top: 141px;
+    
+
+}
+.service_text h3 {
+    font-family: "Rosario", sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 90px;
+    color: #222222;
+
+}
+.service_text p {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #555555;
+    width: 637px;
+    margin-top: 20px;
+}
+
+.service_card {
+    width: 500px;
+    height: 160px;
+
+}
+.service_card_logo {
+    
+}
